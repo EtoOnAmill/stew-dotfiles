@@ -1,0 +1,9 @@
+set hidden
+map D $mv $f ~/.bin/
+map gh :cd ~
+map gu :cd ~/.config/home-manager
+map gs :cd /etc/nixos
+map o &mkdir _newfolder
+map i &touch _newfile
+map x cut
+map <enter> $kak $f

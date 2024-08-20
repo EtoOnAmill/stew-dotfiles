@@ -1,0 +1,16 @@
+colorscheme base16
+map global insert <tab> <space><space><space><space>
+map global user i ": lsp-hover<ret>"
+
+hook global WinCreate .* %{
+    set-option global scrolloff 8,8
+    set-option global tabstop 4
+    set-option global aligntab false
+
+    add-highlighter window/ number-lines -relative -hlcursor
+}
+
+eval %sh{kak-lsp --kakoune -s $kak_session}
+hook global WinSetOption filetype=(rust|d|c|cpp) %{
+    lsp-enable-window
+}

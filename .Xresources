@@ -1,0 +1,14 @@
+URxvt.background: #1E2430
+URxvt.foreground: #E5E9F0
+URxvt.cursorColor: #FFFFFF
+URxvt.cursorBlink: false
+
+URxvt.scrollTtyOutput; False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+URxvt.scrollBar: false
+
+URxvt.urgentOnBell: false
+URxvt.visualBell:true
+
+URxvt.font: xft:MapleMono-Light:size=23
