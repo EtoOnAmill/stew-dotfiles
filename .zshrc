@@ -12,6 +12,7 @@ unsetopt autocd
 
 alias ll="ls -hl"
 alias la="ls -hla"
+alias forth="pforth"
 alias usplit="urxvt &"
 alias lsdisk="lsblk"
 alias memory="df -hT"
