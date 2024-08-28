@@ -29,3 +29,6 @@ bindkey '^[[B' history-substring-search-down
 
 unsetopt BEEP
 xset -b
+
+NEWLINE=$'\n'
+PROMPT="%F{198}%*%fUTC %F{214}/%m%/%f${NEWLINE}%?%F{197}%#%n%f->"
