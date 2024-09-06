@@ -20,6 +20,7 @@ alias suspend="systemctl suspend"
 
 export GCM_CREDENTIAL_STORE="gpg"
 export GPG_TTY=$(tty)
+export TERM="kak"
 
 export HISTORY_SUBSTRING_SEARCH_PREFIXED="yes"
 export HISTORY_SUBSTRING_SEARCH_FUZZY="yes"

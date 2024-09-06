@@ -2,8 +2,10 @@ colorscheme base16
 map global insert <tab> <space><space><space><space>
 map global user i ": lsp-hover<ret>"
 
+# map global insert <tab> <space><space><space><space> map global insert <tab> <space><space><space><space>
+
 hook global WinCreate .* %{
-    set-option global scrolloff 8,8
+    set-option global scrolloff 5,8
     set-option global tabstop 4
     set-option global aligntab false
 
