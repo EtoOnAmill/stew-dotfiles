@@ -3,7 +3,7 @@ pgrep -x sxhkd >/dev/null || sxhkd &
 xrandr --output $monitor --mode 1920x1080
 xrandr --output $monitor --brightness 0.8
 
-feh --bg-fill /home/etonit/Pictures/Shelter_Within_roly_poly_post.jpg
+feh --bg-scale /home/etonit/Pictures/Shelter_Within_roly_poly_post.jpg
 
 bspc rule -l
 while [[ $? -ne 0 ]] do

@@ -2,8 +2,6 @@ colorscheme base16
 map global insert <tab> <space><space><space><space>
 map global user i ": lsp-hover<ret>"
 
-# map global insert <tab> <space><space><space><space> map global insert <tab> <space><space><space><space>
-
 hook global WinCreate .* %{
     set-option global scrolloff 5,8
     set-option global tabstop 4
@@ -13,6 +11,6 @@ hook global WinCreate .* %{
 }
 
 eval %sh{kak-lsp --kakoune -s $kak_session}
-hook global WinSetOption filetype=(rust|d|c|cpp) %{
+hook global WinSetOption filetype=(rust|d|c|cpp|erlang) %{
     lsp-enable-window
 }
