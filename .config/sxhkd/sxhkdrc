@@ -20,7 +20,7 @@ super + shift + a
 
 # screenshots
 Print
-    flameshot launcher
+    flameshot gui
 
 # change keyboard language
 super + z
