@@ -16,7 +16,7 @@ super + a
 
 # media player
 super + shift + a
-    audacious
+    urxvt -e cmus
 
 # screenshots
 Print
