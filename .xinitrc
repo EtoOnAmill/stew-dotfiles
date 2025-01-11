@@ -8,7 +8,7 @@
 /etc/X11/Xsession
 
 # set some variables
-export monitor=$(xrandr | grep -Po -m1 "\w+(-1)+")
+export monitor=HDMI-A-0
 export XDG_CONFIG_HOME=$HOME/.config/
 
 # set background handled in bspwmrc

@@ -1,5 +1,5 @@
 set hidden
-map D $mv $f ~/.bin/
+map D $mv $f ~/.trash/
 map gh :cd ~
 map gu :cd ~/.config/home-manager
 map gs :cd /etc/nixos
