@@ -8,7 +8,7 @@ URxvt.scrollWithBuffer: True
 URxvt.scrollTtyKeypress: True
 URxvt.scrollBar: false
 
-URxvt.urgentOnBell: false
+URxvt.urgentOnBell:false
 URxvt.visualBell:true
 
-URxvt.font: xft:MapleMono-Light:size=23
+URxvt.font:xft:MapleMono-Regular:size=16

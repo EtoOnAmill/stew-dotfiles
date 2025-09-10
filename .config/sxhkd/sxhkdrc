@@ -30,9 +30,13 @@ super + z
 super + c
     /home/etonit/.config/sxhkd/openScratchpad.sh
 
-# virt-manager
+# wpa wifi
 super + w
     wpa_gui
+
+# signal
+super + s
+    signal-desktop
 
 # virt-manager
 super + v

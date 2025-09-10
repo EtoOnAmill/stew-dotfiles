@@ -10,6 +10,8 @@ hook global WinCreate .* %{
     add-highlighter window/ number-lines -relative -hlcursor
 }
 
+set global ui_options ncurses_enable_mouse=0
+
 eval %sh{kak-lsp --kakoune -s $kak_session}
 hook global WinSetOption filetype=(rust|d|c|cpp|erlang) %{
     lsp-enable-window
