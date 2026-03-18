@@ -3,7 +3,7 @@ map global insert <tab> <space><space><space><space>
 map global user i ": lsp-hover<ret>"
 
 hook global WinCreate .* %{
-    set-option global scrolloff 5,8
+    set-option global scrolloff 5,20
     set-option global tabstop 4
     set-option global aligntab false
 
